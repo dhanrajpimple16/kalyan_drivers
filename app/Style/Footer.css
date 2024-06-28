@@ -1,0 +1,20 @@
+.footer {
+  padding-top: 60px;
+  background: rgb(0,10,14);
+  background: -moz-radial-gradient(circle, rgba(0,10,14,0.6783963585434174) 0%, rgba(5,1,1,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(0,10,14,0.6783963585434174) 0%, rgba(5,1,1,1) 100%);
+  background: radial-gradient(circle, rgba(0,10,14,0.6783963585434174) 0%, rgba(5,1,1,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000a0e",endColorstr="#050101",GradientType=1);
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: row;
+}
+
+.footer-column h3{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+

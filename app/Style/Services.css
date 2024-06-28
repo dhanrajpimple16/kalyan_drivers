@@ -1,0 +1,56 @@
+.service-container{
+  text-align: center;
+  width: 100vw;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: rgb(0,10,14);
+  background: -moz-radial-gradient(circle, rgba(0,10,14,0.6783963585434174) 0%, rgba(5,1,1,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(0,10,14,0.6783963585434174) 0%, rgba(5,1,1,1) 100%);
+  background: radial-gradient(circle, rgba(0,10,14,0.6783963585434174) 0%, rgba(5,1,1,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000a0e",endColorstr="#050101",GradientType=1);
+}
+.service-heading{
+  font-size: 60px;
+  color: white;
+  font-weight: bolder;
+}
+.heading-para{
+  color: white;
+  font-size: large;
+}
+.card-container{
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-row{
+  display: flex;
+width: 100vw;  
+justify-content: space-evenly;
+}
+.card{
+  width: 30%;
+  margin: 30px;
+  padding: 10px;
+  background-color: blanchedalmond;
+  border-radius: 15%;
+}
+
+.card-data{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons{
+  font-size: 100px;
+  margin: 10px;
+}
+.width-card{
+  width: 60%;
+}
+.card-heading{
+  font-weight: bold;
+}

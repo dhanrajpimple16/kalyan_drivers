@@ -1,0 +1,88 @@
+.location{
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border-top: 2px solid white;
+  justify-content: center;
+  align-items: center;
+  background: rgb(0,10,14);
+  background: -moz-radial-gradient(circle, rgba(0,10,14,0.6783963585434174) 0%, rgba(5,1,1,1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(0,10,14,0.6783963585434174) 0%, rgba(5,1,1,1) 100%);
+  background: radial-gradient(circle, rgba(0,10,14,0.6783963585434174) 0%, rgba(5,1,1,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000a0e",endColorstr="#050101",GradientType=1);
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.location-heading{
+  font-size: 50px;
+  font-weight: bolder;
+  color: rgb(237, 168, 99);
+}
+
+.location-para{
+width: 50%;
+text-align: center;
+color: white;
+font-weight: bold;
+font-size: large;
+
+}
+
+.locaton-icons{
+  font-size: 70px;
+  color: rgb(227, 227, 7);
+  margin-bottom: 2%;
+  border-bottom: 4px solid rgb(227, 227, 7);
+  padding: 10px;
+}
+
+.location-city{
+  margin-top: -8px;
+  font-size: 40px;
+  font-weight: bolder;
+  color: rgb(232, 245, 192);
+}
+
+
+/* .location-row{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 100px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.location-container {
+  display: flex;
+ justify-content: center;
+  align-items: flex-start; /* Align items to the start of the column */
+  gap: 100px; /* Adjust the gap between each location */
+  width: 80%;
+}
+
+.content {
+  display: flex;
+  
+  align-items: center;
+}
+
+.content:hover{
+  color: white !important;
+  transform: scale(1.1);
+}
+
+.location-icon {
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.location-city {
+  margin: 0; /* Remove default margin */
+}

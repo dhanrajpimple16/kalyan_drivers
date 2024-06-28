@@ -1,48 +1,32 @@
 import type { MetaFunction } from "@remix-run/node";
+import AboutUs from "~/component/AboutUs";
+import Footer from "~/component/Footer";
+import Home from "~/component/Home";
+import Location from "~/component/Location";
+import Navbar from "~/component/Navbar";
+import Services from "~/component/Services";
 
-export const meta: MetaFunction = () => {
-  return [
-    { title: "New Remix App" },
-    { name: "description", content: "Welcome to Remix!" },
-  ];
-};
+import styles from "~/Style/Home.css?url";
+
 
 export default function Index() {
   return (
-    <div className="font-sans p-4">
-      <h1 className="text-3xl">Welcome to Remix</h1>
-      <ul className="list-disc mt-4 pl-6 space-y-2">
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/start/quickstart"
-            rel="noreferrer"
-          >
-            5m Quick Start
-          </a>
-        </li>
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/start/tutorial"
-            rel="noreferrer"
-          >
-            30m Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/docs"
-            rel="noreferrer"
-          >
-            Remix Docs
-          </a>
-        </li>
-      </ul>
+    <div>
+     <Navbar/> 
+    <Home/>
+    <AboutUs/>
+    <Location/>
+    <Services/>
+    <Footer/>
     </div>
   );
 }
+
+
+
+export const links = () => [
+  {
+    rel: "stylesheet",
+    href: styles,
+  },
+];

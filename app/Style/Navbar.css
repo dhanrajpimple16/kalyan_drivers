@@ -1,0 +1,33 @@
+.nav-bar{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.first-section{
+   display: flex;
+   background-color: black;
+   justify-content: space-evenly;
+   align-items: center;
+   color: white;
+    font-weight: bold;
+   height: 5vh;
+}
+
+.second-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 75px;
+  width: 100vw;
+
+}
+.second-section p {
+  color:black;
+  font-weight: bold;
+  margin-right: 20px;
+  background-color: rgba(236, 233, 11, 0.797);
+  padding: 10px;
+  border-radius: 25%;  
+}
